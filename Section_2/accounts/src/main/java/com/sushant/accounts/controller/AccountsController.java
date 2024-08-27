@@ -14,7 +14,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(value = "/api", produces = {MediaType.APPLICATION_ATOM_XML_VALUE})
+@RequestMapping(value = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})
 @AllArgsConstructor
 @Validated
 public class AccountsController {
