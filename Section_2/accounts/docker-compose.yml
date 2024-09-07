@@ -9,7 +9,7 @@ services:
         limits:
           memory: 700m
     networks:
-      -biharbank
+      - biharbank
 
   loans:
     image: "digitalsushant/loans:s2"
@@ -21,7 +21,7 @@ services:
         limits:
           memory: 700m
     networks:
-      -biharbank
+      - biharbank
 
   cards:
     image: "digitalsushant/cards:s2"
@@ -33,7 +33,7 @@ services:
         limits:
           memory: 700m
     networks:
-      -biharbank
+      - biharbank
 
 networks:
  biharbank:
