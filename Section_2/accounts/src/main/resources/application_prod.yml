@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to BiharBank accounts related prod APIs "
+  contactDetails:
+    name: "Sushant Kumar - Product Owner"
+    email: "sushant@biharbank.com"
+  onCallSupport:
+    - (453) 555-1234
+    - (236) 523-1345
